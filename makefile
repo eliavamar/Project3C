@@ -14,7 +14,7 @@ main.o: main.c
 	$(CC) $(FLAGS) -c main.c
 
 func.o: func.c
-	$(CC) $(FLAGS) -c func.c func.h
+	$(CC) $(FLAGS) -c func.c
 
 all: isort txtfind
 clean:
