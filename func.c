@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "func.h"
 #define LINE 256
 #define WORD 30
 int getLine(char s[LINE]){
